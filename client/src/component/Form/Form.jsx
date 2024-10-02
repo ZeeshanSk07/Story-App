@@ -186,7 +186,6 @@ const Form = () => {
       <div className="navbar__main">
         <div className="navbar__left">
           <h1 style={{ cursor: "pointer" }} onClick={handleHome}>
-            SwipTory
           </h1>
         </div>
         {isSmallScreen ? (
