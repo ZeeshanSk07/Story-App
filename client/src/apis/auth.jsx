@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BACKEND_URL = "";
+const BACKEND_URL = "https://story-app-2zuc.onrender.com";
 
 export const registerUser = async (username, password) => {
   try {
