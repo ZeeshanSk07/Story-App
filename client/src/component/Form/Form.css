@@ -1,0 +1,238 @@
+.navbar__main {
+  font-family: "Roboto";
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+.navbar__right {
+  display: flex;
+  gap: 2rem;
+}
+button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  width: 9rem;
+}
+.btn__register {
+  background-color: #ff7373;
+}
+.btn__signIn {
+  background-color: #73abff;
+}
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 6rem;
+  margin: 0 auto;
+  left: 50%;
+  top: 50%;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: 100000;
+  gap: 1rem;
+  width: max-content;
+  box-shadow: 50px;
+  border-radius: 1rem;
+}
+.form__mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 1rem;
+  margin: 0 auto;
+  left: 50%;
+  top: 50%;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: 100000;
+  gap: 1rem;
+  width: max-content;
+  box-shadow: 50px;
+  border-radius: 1rem;
+}
+.form__mobile > .form__fields {
+  display: flex;
+  flex-direction: column;
+}
+.form__fields {
+  display: flex;
+  justify-content: center;
+}
+.form__fields > input {
+  margin: auto 1rem;
+  height: 2rem;
+}
+
+.form__btn {
+  display: flex;
+  justify-content: center;
+}
+.form__btn > button {
+  background-color: #73abff;
+}
+.mobile__menu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  top: 5rem;
+  right: 0px;
+  width: 100%;
+  z-index: 999;
+  background-color: white;
+  padding: 1rem;
+}
+.btn__bookmark {
+  display: flex;
+  background-color: #ff7373;
+  align-items: center;
+  cursor: pointer;
+}
+
+.user__avatar {
+  width: 50px;
+}
+.btn__add__story {
+  background-color: #ff7373;
+  cursor: pointer;
+}
+.addStory__form {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  width: max-content;
+  margin: 0 auto;
+}
+.crossContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cross {
+  cursor: pointer;
+}
+.cross__big {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.slideNumber {
+  font-size: 1.2rem;
+}
+
+.story__main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.story__main > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.story__main h1 {
+  width: max-content;
+}
+
+.inputField,
+select.inputField {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.addStory__form > button {
+  cursor: pointer;
+  background-color: #ff7373;
+}
+.logOut h1 {
+  color: black;
+}
+.hidden {
+  display: none;
+}
+.hamburger {
+  position: relative;
+  z-index: 0;
+}
+.logOut {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 80px;
+  right: 0px;
+  width: 250px;
+  height: max-content;
+  padding: 1rem 0;
+  cursor: pointer;
+  background-color: white;
+  z-index: 999;
+  border-radius: 1px;
+}
+.logOut > button {
+  background-color: #ff7373;
+}
+.slides {
+  display: flex;
+}
+.slides > button {
+  background-color: #ff7373;
+}
+.btn__bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.btn__bottom1 > .prv {
+  background-color: #7eff73;
+}
+.btn__bottom1 > .nxt {
+  background-color: #73abff;
+}
+.post {
+  background-color: #ff7373;
+}
+.eye-span-desk {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.eye-icon-desk {
+  margin-right: 10;
+}
+.eye-span-mobile {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.eye-icon-mobile {
+  margin-right: 10;
+}
