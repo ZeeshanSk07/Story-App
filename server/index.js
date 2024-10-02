@@ -20,6 +20,9 @@ app.use((error, req, res, next) => {
         ErrorMessage: "Something went wrong"
     })
 })
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
 
 const startServer = async () => {
     try {
