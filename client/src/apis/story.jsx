@@ -1,7 +1,7 @@
 import axios from "axios";
 import { jwtDecode } from "jwt-decode";
 
-const BACKEND_URL = "";
+const BACKEND_URL = "https://story-app-2zuc.onrender.com";
 
 const token = localStorage.getItem("token");
 
