@@ -40,8 +40,8 @@ const startServer = async () => {
             console.log("Continuing without Redis...")
         }
 
-        app.listen(PORT, () => {
-            console.log(`Server running on port ${PORT}`)
+        app.listen(4000, () => {
+            console.log(`Server running on port 4000`)
         })
     } catch (mongoError) {
         console.error("Failed to connect to MongoDB:", mongoError)
